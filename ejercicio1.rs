@@ -24,8 +24,10 @@ fn main() {
     // Crear una instancia de Persona
     let persona1 = Persona::new("Juan", 30);
     let persona2 = Persona::new("Antonio", 40);
+    let persona3 = Persona::new("Pepe", 25);
 
     // Llamar al método presentarse
     persona1.presentarse();
     persona2.presentarse();
+    persona3.presentarse();
 }
